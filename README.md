@@ -1,4 +1,4 @@
-# Paint CLI
+# Paint CLI <img src="https://i.imgur.com/OcPxJSf.png" align="right" height="75px">
   Esse programa é um paint feito em sh, que permite seja feito desenhos pixealizados no próprio terminal.
   Caso o programa não apresente as cores corretamente quando é pintado, pode ser pelo fato de que você
 tenha customizado as cores do terminal, verifique o arquivo .Xresources caso isso ocorra.
@@ -31,6 +31,10 @@ sobrescrito.
   O upload é feito utilizando a API do imagebin, ou seja, é necessário inserir a sua key dentro do 
 arquivo config.txt para que seja possível postar a sua imagem e receber um link.
 
+
+### Upload
+  O programa tem uma funcionalidade de fazer upload do seu desenho, caso ele já esteja salvo, tal
+função é feita utilizando a API do imagebin,
 
 ### Dica
   Caso queira pintar todo o fundo antes de começar, coloque o cursor no final do terminal e fique 

@@ -79,9 +79,9 @@ source ${path}/config.txt #importando configurações
 _TITULO(){
 printf '\e[2J\e[H' #Limpa tela
 echo -e "
-$cor1┌─┐$cor2┌─┐$cor3┬$cor4┌┐┌$cor5┌┬┐$cor0	$cor6┌─┐$cor7┬ ┬
-$cor1├─┘$cor2├─┤$cor3│$cor4│││$cor5 │ $cor0	$cor6└─┐$cor7├─┤
-$cor1┴  $cor2┴ ┴$cor3┴$cor4┘└┘$cor5 ┴ $cor0	$cor6└─┘$cor7┴ ┴$cor0
+$cor8┌─┐$cor7┌─┐$cor3┬$cor4┌┐┌$cor5┌┬┐$cor0	$cor6┌─┐$cor7┬ ┬
+$cor8├─┘$cor7├─┤$cor3│$cor4│││$cor5 │ $cor0	$cor6└─┐$cor7├─┤
+$cor8┴  $cor7┴ ┴$cor3┴$cor4┘└┘$cor5 ┴ $cor0	$cor6└─┘$cor7┴ ┴$cor0
 "
 }
 

@@ -1,0 +1,38 @@
+	# Movimentação
+cima='w'
+baixo='s'
+esquerda='a'
+direita='d'
+
+	# Ações
+pintar='p'
+salvar='g'
+
+	# Pincel
+pincel=' '	# tamanho que será pintado pelo pincel
+
+	# Cores
+cor0='\e[49m'	# borracha
+cor1='\e[40m'   # preto
+cor2='\e[107m'	# branco
+cor3='\e[41m'	# vermelho
+cor4='\e[42m'	# verde
+cor5='\e[43m'	# amarelo
+cor6='\e[44m'	# azul
+cor7='\e[45m'	# magenta
+cor8='\e[46m'	# ciano
+
+	# Nome das Cores (para apresentar o que cada tecla representa)
+cname0='borracha'
+cname1='preto'
+cname2='branco'
+cname3='vermelho' 
+cname4='verde'
+cname5='amarelo'
+cname6='azul'
+cname7='magenta'
+cname8='ciano'
+
+	# API key imagebin
+# Função para upload
+key=''
